@@ -20,3 +20,6 @@ steps:
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.17'
     mavenVersionOption: 'Default'
+
+- script: java -cp target/classes org.example.Main
+  displayName: 'Run Java Program'
